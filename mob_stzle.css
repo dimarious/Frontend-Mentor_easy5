@@ -1,0 +1,56 @@
+@media only screen and (max-width: 910px) {
+    .content {
+        margin: 0px 40px;
+    }
+    .faq-container {
+        padding-right: 50px;
+    }
+    .desktop-box {
+        display: none;
+    }
+    .image-container {
+        background: url(./images/illustration-woman-online-mobile.svg) no-repeat left -60px top 68px, url(./images/bg-pattern-mobile.svg) no-repeat left -60px top 250px;
+        background-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .content {
+        margin: 0px 30px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .content {
+        margin: 0px 24px;
+    }
+    .faq-container {
+        margin: 12px 24px;
+        padding: 0;
+    }
+    .faq-container h1 {
+        text-align: center;
+    }
+    #faq-accordion {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 40px;
+    }
+    .faq-accordion-card {
+         min-width: 327px; 
+        flex-direction: column;
+        margin-top: 148px;
+    }
+    .image-container {
+        justify-content: center;
+        padding-bottom: 40px;
+        background: url(./images/bg-pattern-mobile.svg) no-repeat center top 0px;
+    }
+    .mobile-woman-online {
+        display: block;
+        margin-top: -108px;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+}  
